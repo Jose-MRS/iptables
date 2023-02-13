@@ -4,5 +4,6 @@ ifconfig br0 up
 brctl addif br0 eth0
 brctl addif br0 eth1
 
-ifconfig eth0 up
-ifconfig eth1 up
+ip link set dev eth0 up
+ip link set dev eth1 up
+
