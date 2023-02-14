@@ -6,4 +6,3 @@ brctl addif br0 eth1
 
 ip link set dev eth0 up
 ip link set dev eth1 up
-
